@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alex Morgan is a professional video editor creating cinematic films, social-first content, and visual stories.">
+  <meta name="theme-color" content="#09090e">
+  <title>Alex Morgan — Video Editor & Visual Storyteller</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="brand" href="#home" aria-label="Alex Morgan home"><span class="brand-mark">A</span><span>alexmorgan<span class="brand-dot">.</span></span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav-links">
+        <span></span><span></span>
+      </button>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link active" href="#home">Home</a>
+        <a class="nav-link" href="#about">About</a>
+        <a class="nav-link" href="#services">Services</a>
+        <a class="nav-link" href="#projects">Projects</a>
+        <a class="nav-contact" href="#contact">Let’s talk <span aria-hidden="true">↗</span></a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section-shell" id="home">
+      <div class="hero-glow hero-glow-one"></div>
+      <div class="hero-glow hero-glow-two"></div>
+      <div class="container hero-content">
+        <p class="eyebrow"><span class="status-dot"></span> INDEPENDENT VIDEO EDITOR · AVAILABLE FOR PROJECTS</p>
+        <h1>Professional Video Editor<br>&amp; <span class="gradient-text">Visual Storyteller.</span></h1>
+        <p class="hero-copy">I turn raw footage into stories that make people <span>feel something.</span> Thoughtful edits, striking visuals, and a little bit of movie magic.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="button button-quiet" href="#contact"><span class="play-small" aria-hidden="true">▶</span> Let’s create together</a>
+        </div>
+        <div class="hero-proof">
+          <div class="avatar-stack" aria-hidden="true"><span>J</span><span>M</span><span>K</span><span>+</span></div>
+          <p><strong>30+ stories told</strong><br><span>for creators &amp; brands worldwide</span></p>
+          <span class="proof-divider"></span>
+          <p class="proof-rating"><span aria-hidden="true">✦</span> 5.0 <span>client rating</span></p>
+        </div>
+      </div>
+      <a class="scroll-note" href="#about"><span class="scroll-line"></span> SCROLL TO EXPLORE</a>
+      <div class="hero-index" aria-hidden="true">01 — 05</div>
+    </section>
+
+    <section class="intro-section section-pad" id="about">
+      <div class="container intro-grid">
+        <div class="section-kicker"><span class="kicker-line"></span> A LITTLE ABOUT ME</div>
+        <div class="intro-copy">
+          <h2>Good editing is invisible.<br><span>Great editing is unforgettable.</span></h2>
+          <p>I’m Alex, a video editor and visual storyteller with a soft spot for the details: the cut that lands on the beat, the color that sets a mood, the quiet moment that says everything. I bring ideas to life with polished, purposeful edits made to move your audience.</p>
+          <a class="text-link" href="#contact">A bit more about me <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="intro-stat"><strong>5<span>+</span></strong><span>years behind<br>the timeline</span></div>
+      </div>
+    </section>
+
+    <section class="projects-section section-pad" id="projects">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-kicker"><span class="kicker-line"></span> SELECTED WORK</p><h2>Stories in <span class="gradient-text">motion.</span></h2></div>
+          <p class="heading-note">A few favorite frames from the<br>projects I’ve brought to life.</p>
+        </div>
+        <div class="filter-list" role="group" aria-label="Filter projects by category">
+          <button class="filter-button active" type="button" data-filter="all" aria-pressed="true">All work <span>06</span></button>
+          <button class="filter-button" type="button" data-filter="cinematic" aria-pressed="false">Cinematic</button>
+          <button class="filter-button" type="button" data-filter="youtube" aria-pressed="false">YouTube</button>
+          <button class="filter-button" type="button" data-filter="reels" aria-pressed="false">Instagram Reels</button>
+          <button class="filter-button" type="button" data-filter="wedding" aria-pressed="false">Wedding Films</button>
+          <button class="filter-button" type="button" data-filter="motion" aria-pressed="false">Motion Graphics</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card project-featured" data-category="cinematic">
+            <button class="project-preview" type="button" data-video="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" data-title="Chasing the Sun" data-description="A cinematic travel film · 2025" aria-label="Play Chasing the Sun video">
+              <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?auto=format&fit=crop&w=1200&q=85" alt="Mountain landscape reflected in a lake at sunset" loading="lazy">
+              <span class="preview-shade"></span><span class="project-number">01 / FILM</span><span class="play-button" aria-hidden="true">▶</span>
+              <span class="project-caption"><span><strong>Chasing the Sun</strong><small>Travel film · 02:34</small></span><span class="caption-arrow" aria-hidden="true">↗</span></span>
+            </button>
+            <div class="project-meta"><span>CINEMATIC EDITING</span><span>COLOR GRADING</span></div>
+          </article>
+          <article class="project-card" data-category="youtube">
+            <button class="project-preview" type="button" data-video="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4" data-title="The Creative Process" data-description="Creator story · YouTube" aria-label="Play The Creative Process video">
+              <img src="https://images.unsplash.com/photo-1492619375914-88005aa9e8fb?auto=format&fit=crop&w=1000&q=85" alt="Camera and video equipment in a studio" loading="lazy">
+              <span class="preview-shade"></span><span class="project-number">02 / CREATOR</span><span class="play-button" aria-hidden="true">▶</span>
+              <span class="project-caption"><span><strong>The Creative Process</strong><small>YouTube · 08:12</small></span><span class="caption-arrow" aria-hidden="true">↗</span></span>
+            </button>
+            <div class="project-meta"><span>YOUTUBE</span><span>STORY EDIT</span></div>
+          </article>
+          <article class="project-card" data-category="reels">
+            <button class="project-preview" type="button" data-video="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerJoyrides.mp4" data-title="Golden Hour" data-description="A social-first brand reel · 2025" aria-label="Play Golden Hour video">
+              <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1000&q=85" alt="Golden sunlight over a scenic landscape" loading="lazy">
+              <span class="preview-shade"></span><span class="project-number">03 / SOCIAL</span><span class="play-button" aria-hidden="true">▶</span>
+              <span class="project-caption"><span><strong>Golden Hour</strong><small>Instagram Reel · 00:42</small></span><span class="caption-arrow" aria-hidden="true">↗</span></span>
+            </button>
+            <div class="project-meta"><span>INSTAGRAM REELS</span><span>VERTICAL VIDEO</span></div>
+          </article>
+          <article class="project-card" data-category="wedding">
+            <button class="project-preview" type="button" data-video="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" data-title="A Day to Remember" data-description="Wedding highlight film · 2025" aria-label="Play A Day to Remember video">
+              <img src="https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=1000&q=85" alt="Romantic wedding reception with warm lights" loading="lazy">
+              <span class="preview-shade"></span><span class="project-number">04 / FOREVER</span><span class="play-button" aria-hidden="true">▶</span>
+              <span class="project-caption"><span><strong>A Day to Remember</strong><small>Wedding film · 04:20</small></span><span class="caption-arrow" aria-hidden="true">↗</span></span>
+            </button>
+            <div class="project-meta"><span>WEDDING FILM</span><span>EMOTIVE STORYTELLING</span></div>
+          </article>
+          <article class="project-card" data-category="motion">
+            <button class="project-preview" type="button" data-video="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerMeltdowns.mp4" data-title="Made of Motion" data-description="Motion-led brand campaign · 2025" aria-label="Play Made of Motion video">
+              <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?auto=format&fit=crop&w=1000&q=85" alt="Colorful retro screen creating a vivid glow" loading="lazy">
+              <span class="preview-shade"></span><span class="project-number">05 / DESIGN</span><span class="play-button" aria-hidden="true">▶</span>
+              <span class="project-caption"><span><strong>Made of Motion</strong><small>Brand campaign · 00:58</small></span><span class="caption-arrow" aria-hidden="true">↗</span></span>
+            </button>
+            <div class="project-meta"><span>MOTION GRAPHICS</span><span>BRAND FILM</span></div>
+          </article>
+          <article class="project-card" data-category="cinematic">
+            <button class="project-preview" type="button" data-video="https://storage.googleapis.com/gtv-videos-bucket/sample/ForBiggerEscapes.mp4" data-title="Into the Wild" data-description="Outdoor adventure film · 2025" aria-label="Play Into the Wild video">
+              <img src="https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?auto=format&fit=crop&w=1000&q=85" alt="Dramatic mountain peaks under a cloudy sky" loading="lazy">
+              <span class="preview-shade"></span><span class="project-number">06 / OUTDOORS</span><span class="play-button" aria-hidden="true">▶</span>
+              <span class="project-caption"><span><strong>Into the Wild</strong><small>Adventure film · 03:16</small></span><span class="caption-arrow" aria-hidden="true">↗</span></span>
+            </button>
+            <div class="project-meta"><span>CINEMATIC EDITING</span><span>SOUND DESIGN</span></div>
+          </article>
+        </div>
+        <p class="portfolio-note">Preview clips are sample footage. Replace them with your own MP4 files before publishing.</p>
+      </div>
+    </section>
+
+    <section class="services-section section-pad" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="section-kicker"><span class="kicker-line"></span> WHAT I CAN DO FOR YOU</p><h2>From first frame<br>to <span class="gradient-text">final cut.</span></h2></div>
+          <p class="heading-note">Everything your story needs<br>to make its mark.</p>
+        </div>
+        <div class="service-grid">
+          <article class="service-card"><span class="service-icon">✳</span><span class="service-index">01</span><h3>Video Editing</h3><p>Seamless, story-first editing for films, campaigns, and digital content that keeps your audience watching.</p><span class="service-tags">LONG-FORM <i>·</i> SHORT-FORM</span></article>
+          <article class="service-card"><span class="service-icon">◌</span><span class="service-index">02</span><h3>Color Grading</h3><p>A considered color palette and cinematic finish that sets the mood and makes every frame feel intentional.</p><span class="service-tags">COLOR <i>·</i> LOOK DEVELOPMENT</span></article>
+          <article class="service-card"><span class="service-icon">⌁</span><span class="service-index">03</span><h3>Motion Graphics</h3><p>Custom titles, transitions, and animated details that give your content an unmistakable visual identity.</p><span class="service-tags">TITLES <i>·</i> ANIMATION</span></article>
+          <article class="service-card"><span class="service-icon">♫</span><span class="service-index">04</span><h3>Sound Design</h3><p>Layered sound, music, and subtle effects that make your story more immersive and every moment land.</p><span class="service-tags">MUSIC <i>·</i> MIXING</span></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section section-pad">
+      <div class="container about-grid">
+        <div class="about-visual">
+          <div class="about-photo">
+            <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=900&q=85" alt="Portrait of video editor Alex Morgan" loading="lazy">
+            <div class="photo-label"><span class="status-dot"></span> MOSTLY FOUND IN THE EDIT SUITE</div>
+          </div>
+          <div class="about-stamp"><span>CRAFTED WITH</span><strong>♥</strong><span>IN EVERY FRAME</span></div>
+        </div>
+        <div class="about-content">
+          <p class="section-kicker"><span class="kicker-line"></span> BEHIND THE EDIT</p>
+          <h2>Hi, I’m Alex.<br>I make <span class="gradient-text">every frame count.</span></h2>
+          <p class="about-paragraph">For the last five years, I’ve helped people turn their raw footage and big ideas into films they’re proud to share. My approach is collaborative, detail-obsessed, and always focused on the feeling we want to leave behind.</p>
+          <p class="about-paragraph">From a creator’s next big upload to the little moments on a wedding day, I care about making work that feels like <em>you</em> — just more cinematic.</p>
+          <div class="skills-block">
+            <div class="skills-title"><span>MY TOOLKIT</span><span>ALWAYS LEARNING, ALWAYS CREATING</span></div>
+            <div class="skill-list"><span>Premiere Pro</span><span>DaVinci Resolve</span><span>After Effects</span><span>Storytelling</span><span>Color Grading</span><span>Sound Design</span></div>
+          </div>
+          <a class="text-link" href="#contact">Let’s make something meaningful <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact-section section-pad" id="contact">
+      <div class="container contact-panel">
+        <div class="contact-glow"></div>
+        <p class="section-kicker"><span class="kicker-line"></span> HAVE A STORY TO TELL?</p>
+        <h2>Let’s make it <span class="gradient-text">unforgettable.</span></h2>
+        <p class="contact-copy">Have a project in mind, a question, or just want to say hello?<br>My inbox is always open.</p>
+        <!-- Replace this example address and social profiles with your own before publishing. -->
+        <a class="button button-primary contact-button" href="mailto:hello@alexmorganfilms.com">hello@alexmorganfilms.com <span aria-hidden="true">↗</span></a>
+        <div class="social-links" aria-label="Social media links">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer">INSTAGRAM <span aria-hidden="true">↗</span></a>
+          <a href="https://www.youtube.com/" target="_blank" rel="noopener noreferrer">YOUTUBE <span aria-hidden="true">↗</span></a>
+          <a href="https://vimeo.com/" target="_blank" rel="noopener noreferrer">VIMEO <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner"><a class="brand" href="#home"><span class="brand-mark">A</span><span>alexmorgan<span class="brand-dot">.</span></span></a><p>© <span id="year"></span> Alex Morgan. Made with intention.</p><a class="back-top" href="#home">BACK TO TOP ↑</a></div>
+  </footer>
+
+  <dialog class="video-dialog" aria-label="Portfolio video player">
+    <div class="video-dialog-inner">
+      <button class="dialog-close" type="button" aria-label="Close video">×</button>
+      <video class="modal-video" controls playsinline></video>
+      <div class="video-dialog-caption"><div><h2 class="modal-title"></h2><p class="modal-description"></p></div><span class="modal-label">ALEX MORGAN · SELECTED WORK</span></div>
+    </div>
+  </dialog>
+</body>
+</html>
